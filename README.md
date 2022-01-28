@@ -1,17 +1,15 @@
 Requires Cmake / VS2017+
 
 build with:
-
+```
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug
-
 mkdir build
-
 cmake --build build
-
+```
 run:
-
+```
 build\Debug\JniTest.exe
-
+```
 result:
 
 JVM option: -Djava.class.path=.;D:\java\JniTest.jar
