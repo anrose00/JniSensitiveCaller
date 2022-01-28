@@ -10,7 +10,7 @@ run:
 ```
 build\Debug\JniTest.exe
 ```
-result:
+result (JDK17):
 
 JVM option: -Djava.class.path=.;D:\java\JniTest.jar
 JVM created successfully
